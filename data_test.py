@@ -58,7 +58,7 @@ for i in B.items():
 #    if B[2]!=True:
 #        break
 
-G={ 1:{"['U']":"['0x55']"}, 0:{"['u']":"['0x75']"}, 2:{"['']":"['0x20']"}} # authors signature +
+G={ 1:{"['U']":"['0x55']"}, 0:{"['u']":"['0x75']"}, 2:{"['']":"['0x20']"} } # authors signature +
 for i in range(len(a),100000):
     if B[1]==True or B[0]==False:
         print i
@@ -73,7 +73,7 @@ def dec(a,n,option):
     return hex(val)
 
 #N={ 0:{"['n']":"['0x4E']"}, 1:{"['N']":"['0x6E']"}}
-V={ 0:{"['x']":"['0x58']"}, 1:{"['X']":"['0x78']"}, 2:{"['']":"['0x20']"}}
+V={ 0:{"['x']":"['0x58']"}, 1:{"['X']":"['0x78']"}, 2:{"['']":"['0x20']"} }
 for i in range(len(a),100000):
     if B[1]==True or B[0]==False:
         print i
