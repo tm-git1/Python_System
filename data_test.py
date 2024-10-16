@@ -81,7 +81,7 @@ for i in range(len(a),100000):
         print ''
         if V[0]!=False or V[1]!=False:
             print '\n\t00\t'
-	    if i ==3 or i==5:
+	    if i ==3 or i ==5:
 	        V[2]=dec(22,0,0)
             else:
 	        V[2]="C"
