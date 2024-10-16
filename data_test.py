@@ -13,54 +13,31 @@ b={}
 d={}
                    
 for i in range(len(a)):
-    d [a[i]] = i
+    d = a[i] # a for d or b for a, pick what you like
 print d
 
-for i in range(len(a)):
-    b [a[i]] = oct(a[i])
+for i in range(len(_)):
+    b = _[i] # again pick what you like
 print b
+	
+#for i in range(len(a)):
+#    b [a[i]] = oct(a[i]) # digits for dictionarys
+#print b
 
 #for i in range(len(a)):
-    #b [a[i]] = bin(a[i])
+#    b [a[i]] = bin(a[i])
+#print b
+
+#for i in range(len(a)):
+#    b [a[i]] = hex(a[i]) # use spaces at your discretion
 #print b
 
 #for i in range(len(_)):
- #   if _[i]==(55) OR _[i]==55
+#    if _[i]==(55) OR _[i]==55
 #        print ''
 
-for i in range(len(_)):
-    b [a[i]] = oct(a[i]+2)
-print b
-
-for i in range(len(a)):
-    b [a[i]] = hex(a[i])
-print b
-
-#print b[7]
 print '\n'
-
-#B={'0x30': '0', '0x31': '1', '0x32': '2$'} swap middle, key/vals
-#B={'': {'0': ['0x30']}, '': {'0x31': '1'}, '': {'0x32': '2$'} }
-#B={'0': ['0x30'], '0x31': 1, '0x32': '2$'}
-
-#B={'0x30':0, '0x31':1, '0x32':'2$'}
-#B={ 0: {"['0x30']":0}, 0: {"['0x31']":0}, 0: {'0x32':'2$'} }
-
-#B={48:{"['0']":"['0x30']"}, 49:{"['1']":"['0x31']"}, 50:{"['2']":"['0x32']"}}
-#print B
-
-#for i in range(len(a),100000):
-#    if B['0x31']==True or B['0x31']==True:
-#        print i
-
-#for i in B.items():
-#    print i
-
-#for i in range(len(_),100000):
-#    if B['0x30']==False or B['0x30']==False:
-#        print i
-
-#B={0:'0x18', '0x31':1, '0x32':'2$'}
+	
 B={ 0:{"['0']":"['0x30']"}, 1:{"['1']":"['0x31']"}, 2:{"['2$']":"['0x32']"} }
 for i in range(len(a),100000):
     if B[1]==True or B[0]==False:
@@ -70,7 +47,7 @@ for i in range(len(a),100000):
 #        if B[2]!=False or B[2]!=True:
 #            print '2'
 
-# {'':{'':'0x18'}, '':{'':'0x19'}, '':{'':'0x1A'}, '':{'':'0x1B'}}
+# { 0:{"['']":"['0x18']"}, 1:{"['']":"['0x19']"}, 2:{"['']":"['0x1A']"}, 3:{"['']":"['0x1B']"} }
 
 for i in B.items():
     print i
@@ -81,7 +58,7 @@ for i in B.items():
 #    if B[2]!=True:
 #        break
 
-G={ 1:{"['U']":"['0x55']"}, 0:{"['u']":"['0x75']"}, 2:{"['']":"['0x20']"}}
+G={ 1:{"['U']":"['0x55']"}, 0:{"['u']":"['0x75']"}, 2:{"['']":"['0x20']"}} # authors signature +
 for i in range(len(a),100000):
     if B[1]==True or B[0]==False:
         print i
