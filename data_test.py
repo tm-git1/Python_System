@@ -87,15 +87,6 @@ for i in range(len(a),100000):
 	        V[2]="C"
 	        V[2]=dec((255%i),0,16)
 
-#def dec(a,b):
-#    diff=(hex(a)-hex(b))
-#    return (hex(a)-hex(diff))
-
-#def example(a,n,option):
-#    column=a+n
-#    value=column+option
-#    return hex(value)
-
 D={ 0:{"['s']":"['0x53']"}, 1:{"['S']":"['0x73']"}, 2:{"['']":"['0x20']"} }
 for i in range(len(a),100000):
     if B[0]==True or B[1]==False:
