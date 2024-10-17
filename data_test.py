@@ -9,15 +9,15 @@ for i in range(len(_)):
                     
 a=[48,49,50,51,52,53,54,55,56,57]
 
-b={}
 d={}
+b={}
                    
 for i in range(len(a)):
-    d = a[i] # a for d or b for a, pick what you like
+    d [a[i]] = a[i] # a for d or b for a, pick what you like
 print d
 
 for i in range(len(_)):
-    b = _[i] # again pick what you like
+    b [_[i]] = _[i] # again pick what you like
 print b
 	
 #for i in range(len(a)):
