@@ -100,6 +100,6 @@ for i in range(len(a),100000):
 
 #Copyright (C) 2023 Thomas McCammon
 #The above software is a standard input/output system configuration tool. 
-#Users may freely download, use, distribute, and modify this file.
+#Users may freely download, use, distribute, and modify this file so long as an acknowledgment is included in the src file.
 #As of 10/01/2023 a service fee of 5% will be required for any commercial use of this code.
 #Payable to Thomas McCammon. For inquiry please call 951.605.0805 or email me at westcoast.coders@mail.com.
