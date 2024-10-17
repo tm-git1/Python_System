@@ -36,31 +36,8 @@ for i in range(len(a)):
     b [a[i]] = hex(a[i])
 print b
 
-#print b[7]
 print '\n'
 
-#B={'0x30': '0', '0x31': '1', '0x32': '2$'} swap middle, key/vals
-#B={'': {'0': ['0x30']}, '': {'0x31': '1'}, '': {'0x32': '2$'} }
-#B={'0': ['0x30'], '0x31': 1, '0x32': '2$'}
-
-#B={'0x30':0, '0x31':1, '0x32':'2$'}
-#B={ 0: {"['0x30']":0}, 0: {"['0x31']":0}, 0: {'0x32':'2$'} }
-
-#B={48:{"['0']":"['0x30']"}, 49:{"['1']":"['0x31']"}, 50:{"['2']":"['0x32']"}}
-#print B
-
-#for i in range(len(a),100000):
-#    if B['0x31']==True or B['0x31']==True:
-#        print i
-
-#for i in B.items():
-#    print i
-
-#for i in range(len(_),100000):
-#    if B['0x30']==False or B['0x30']==False:
-#        print i
-
-#B={0:'0x18', '0x31':1, '0x32':'2$'}
 B={ 0:{"['0']":"['0x30']"}, 1:{"['1']":"['0x31']"}, 2:{"['2$']":"['0x32']"} }
 for i in range(len(a),100000):
     if B[1]==True or B[0]==False:
@@ -114,11 +91,6 @@ for i in range(len(a),100000):
 #    diff=(hex(a)-hex(b))
 #    return (hex(a)-hex(diff))
 
-#def example(a,n,option):
-#    column=a+n
-#    value=column+option
-#    return hex(value)
-
 D={ 0:{"['s']":"['0x53']"}, 1:{"['S']":"['0x73']"}, 2:{"['']":"['0x20']"} }
 for i in range(len(a),100000):
     if B[0]==True or B[1]==False:
@@ -132,7 +104,7 @@ for i in range(len(a),100000):
 
 import time, sys, tty, socket
 time.clock()
-print 'End of program \n'
+print ' \n'
 n = 1
 
 print str(d) + ''#{e} 
