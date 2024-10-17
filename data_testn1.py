@@ -16,26 +16,18 @@ for i in range(len(a)):
     d [a[i]] = i
 print d
 
-for i in range(len(a)):
-    b [a[i]] = oct(a[i])
-print b
-
-#for i in range(len(a)):
-    #b [a[i]] = bin(a[i])
-#print b
-
-#for i in range(len(_)):
- #   if _[i]==(55) OR _[i]==55
-#        print ''
-
-for i in range(len(_)):
-    b [a[i]] = oct(a[i]+2)
-print b
+#def frmt(y,z):
+#    if y ==0:
+#        return bin(z)
+#    if y ==1:
+#	return hex(z)
+#    if y ==2:
+#        return oct(z)
 
 for i in range(len(a)):
-    b [a[i]] = hex(a[i])
+    b [a[i]] = a[i] #frmt(0,a[i])
 print b
-
+	
 print '\n'
 
 B={ 0:{"['0']":"['0x30']"}, 1:{"['1']":"['0x31']"}, 2:{"['2$']":"['0x32']"} }
@@ -166,4 +158,9 @@ try:
 except:
     SyntaxError("_*, Error(e)")
 
-#
+	
+#Copyright (C) 2023 Thomas McCammon
+#The above software is a standard input/output system configuration tool. 
+#Users may freely download, use, distribute, and modify this file so long as an acknowledgment is included in the source file.
+#As of 10/01/2023 a service fee of 5% will be required for any commercial use of this code.
+#Payable to Thomas McCammon. For inquiry please call 951.605.0805 or email me at westcoast.coders@mail.com.
