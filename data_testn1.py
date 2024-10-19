@@ -13,7 +13,7 @@ b={}
 d={}
                    
 for i in range(len(a)):
-    d [a[i]] = i
+    d [a[i]] = i #_[i], a[i]
 print d
 
 #def frmt(y,z):
